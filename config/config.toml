@@ -1,0 +1,16 @@
+# Vision Transformer Configuration for ImageNet-1k
+
+# Image settings
+img_size = 224
+patch_size = 16
+num_channel = 3
+num_classes = 1000
+
+# Model architecture (ViT-Base)
+d_model = 768
+num_head = 12
+num_encoder_layer = 12
+
+# Computed values
+d_head = 64  # d_model // num_head
+num_patches = 196  # (img_size // patch_size) ** 2
