@@ -1,5 +1,8 @@
 *.pdf
 
+# Claude Code
+.claude/
+
 # uv
 uv.lock
 .python-version

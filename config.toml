@@ -1,0 +1,21 @@
+# Vision Transformer Configuration
+
+# Dataset settings
+DATASET_NAME = "uoft-cs/cifar100"
+num_classes = 100
+batch_size = 64
+num_workers = 4
+
+# Image settings
+img_size = 32
+patch_size = 4
+num_channel = 3
+
+# Model architecture (ViT-Base)
+d_model = 384
+num_head = 3
+num_encoder_layer = 12
+
+# Computed values
+d_head = 128  # d_model // num_head
+num_patches = 64  # (img_size // patch_size) ** 2
