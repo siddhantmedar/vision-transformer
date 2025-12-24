@@ -45,6 +45,17 @@ tensorboard --logdir checkpoints/runs
 ├── config.toml   # Model configuration
 ```
 
+## Pretrained Checkpoint
+
+A pretrained checkpoint is available at `checkpoints/best.pt`:
+- **Top-1 Accuracy**: 46.30%
+- **Top-3 Accuracy**: 68.43%
+
+To use it:
+```bash
+uv run python run.py
+```
+
 ## Configuration
 
 Edit `config.toml` to modify:
